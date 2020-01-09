@@ -1,0 +1,1 @@
+It's a collection of java projects of different techs.All folders belong to a single workspace. Each are different projects.
