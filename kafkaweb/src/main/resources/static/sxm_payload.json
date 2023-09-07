@@ -1,0 +1,93 @@
+{
+    "records": {
+      "key": "19UYA31581L000000",
+      "value": {
+        "hondaHeaderType": {
+          "businessId": "HONDALINK CONNECT",
+          "systemId": "com.honda.services.sxm",
+          "siteId": "18d216af12884813987e6b7f75a005a1",
+          "userId": "Hidas Id based on Bearer Authentication",
+          "collectedTimeStamp": "2019-01-01T14:02:41.548-05:00",
+          "country_code": "US|CA",
+          "language_code": "en|fr",
+          "eventUUID": "874264d0-1574-4416-830b-0ca34b8e6d55"
+        },
+        "eventType": "Enrollment|Account_Cancel|Account_Expire|Product_Expire|Product_Renewal|Product_Cancel|Product_Update|Profile_Update|Reconciliation|ExtendTrial",
+        "subscriptionData": {
+          "customerSubscription": {
+            "device": "19UYA31581L000000",
+            "status": "Active/InActive [ Enrollment - ACTIVE|Account_Cancel - INACTIVE|Account_ExpireINACTIVE|Product_Expire-ACTIVE|Product_Renewal-ACTIVE|Product_Cancel-ACTIVE|Product_Update-ACTIVE|Profile_Update-ACTIVE|Reconciliation-ACTIVE/INACTIVE]",
+            "eventdatetime": "2019-01-01T14:02:41.548-05:00",
+            "messageId": "874264d0-1574-4416-830b-0ca34b8e6d55",
+            "correlationId": "874264d0-1574-4416-830b-0ca34b8e6d55",
+            "delaerCode": "string",
+            "delaerName": "string",
+            "salesPersonId": "string",
+            "salesPersonName": "string",
+            "salesPersonContact": "string",
+            "providerAgreementID": "string",
+            "hondaCustomerID": "A0001234",
+            "agreementStartDate": "2019-01-01T14:02:41.548-05:00",
+            "salesType": "INDIVIDUAL | BUSINESS | DEMONSTRATION",
+            "pin": "1582",
+            "enrollmentMethod": "DEALER|SELF|AGENT",
+            "globalCustomerId": "USA001056efee01eda40a4a7355bf0d8908a39",
+            "freeTrialFl": "Y | N",
+            "tspProgramName": "MY13_TSP,MY17_TSP,MY21_TSP",
+            "timeZone": "America/Los_Angeles",
+            "preferredCommunication": "Email",
+            "preferredlanguage": "EN,FR"
+          },
+          "Customer": [
+            {
+              "subscriberType": "PRIMARY DRIVER|ADDITIONAL DRIVER 1 | ADDITIONAL DRIVER 2 | ADDITIONAL DRIVER 3 | EMERGENCY CONTACT 1 ",
+              "providerContactId": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "title": "string",
+              "middleInitialName": "s",
+              "suffix": "string",
+              "preferredlanguage": "string",
+              "businessName": "string",
+              "homePhoneNumber": "string",
+              "cellPhoneNumber": "string",
+              "workPhoneNumber": "string",
+              "primaryEmail": "string",
+              "secondaryEmail": "string",
+              "emergencyContactRelationShip": "Self",
+              "mailingAddress": {
+                "address": "string",
+                "city": "string",
+                "state": "string",
+                "postalCode": "string",
+                "postalPlusFour": "string",
+                "country": "string"
+              },
+              "homeAddress": {
+                "address": "string",
+                "city": "string",
+                "state": "string",
+                "postalCode": "string",
+                "postalPlusFour": "string",
+                "country": "string"
+              }
+            }
+          ],
+          "CustomerProduct": [
+            {
+              "productCode": "PRD-1234",
+              "productDescription": "TELEMATICS PACKAGE ",
+              "productId": "TELEMATICS PAID PACKAGE | TELEMATICS TRIAL PACKAGE",
+              "productStartDate": "2020-01-10 22:00:00",
+              "productEndDate": "2020-01-10 22:00:00",
+              "paymentTypeCode": "FREE | GOODWILL|DEALER PAY|CUSTOMER PAY",
+              "productRenewalDate": "2020-01-10 22:00:00",
+              "productTerm": "P0Y0M1095DT0H0M0S",
+              "cancellationReason": "Customer Not Interested| COST| OTHERS",
+              "cancellationDetails": "Customer to enter custom text for Cancellation Reason"
+            }
+          ]
+        }
+      }
+    }
+  }
