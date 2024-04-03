@@ -1,0 +1,25 @@
+create web post call first
+
+FIRST START ZOOKEEPER THEN KAFKA
+start zookeeper:
+C:\kafka_2.13\bin\windows\zookeeper-server-start.bat C:\kafka_2.13\config\zookeeper.properties
+
+start kafka:
+C:\kafka_2.13\bin\windows\kafka-server-start.bat C:\kafka_2.13\config\server.properties
+
+
+List kafka topics:
+C:\kafka_2.13\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+
+create kafka topic:
+bin/kafka-topics.sh --create --topic my-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+
+
+produce a message:
+echo "message1.0" | C:\kafka_2.13\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic local-first-topic
+
+consume a message:
+C:\kafka_2.13\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic local-first-topic --from-beginning
+
+
